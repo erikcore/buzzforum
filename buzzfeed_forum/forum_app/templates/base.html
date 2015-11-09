@@ -1,0 +1,25 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="{% static 'dist/css/main.min.css' %}">
+		<title>Welcome to The Forum!</title>
+	</head>
+	<body>
+		<div id="headBanner">
+			<div id="headerBannerText">THE FORUM</div>
+		</div>
+		<div id="contentWrapper">
+			<div id="content"></div>
+		</div>
+	</body>
+	<script src="https://fb.me/react-0.14.2.js"></script>
+	<script src="https://fb.me/react-dom-0.14.2.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-router/0.13.5/ReactRouter.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="{% static 'dist/js/app.min.js' %}"></script>
+</html>

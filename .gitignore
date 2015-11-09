@@ -1,0 +1,4 @@
+*.pyc
+db.sqlite3
+.DS_Store
+buzzfeed_forum/node_modules/*

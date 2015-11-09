@@ -1,0 +1,150 @@
+html, body {
+	padding:0px;
+	margin:0px;
+	background-color: #99E1E1;
+}
+#contentWrapper {
+	max-width:1280px;
+	background-color: lightgrey;
+	margin: 0 auto;
+}
+.formWrapper {
+	margin-top:30px;
+}
+.threadForm input[type=text] {
+	max-width: 1028px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	font-size: 20px;
+}
+.threadForm input[type=submit] {
+	border: none;
+	background-color: #eae473;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+}
+.formWrapper input {
+	margin-top:10px;
+}
+.commentFormWrapper {
+	margin-top:10px;
+	padding:20px;
+}
+.commentForm input[type=text] {
+	max-width: 1028px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	font-size: 20px;
+}
+.commentFormWrapper input {
+	margin-top:10px;
+}
+.comment {
+	background-color: whitesmoke;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.commentVote {
+	text-decoration: none;
+}
+.voteAndScore {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+#headBanner {
+	width:100%;
+	height:400px;
+	background-image: url("/static/img/header.png");
+	background-position: center;
+	text-align:center;
+}
+#headerBannerText {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 100px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.formWrapper {
+	background-color: #ffcccc;
+}
+.threadList {
+	padding:20px;
+}
+#recentThreads {
+	font-family: 'Josefin Slab', serif;
+	font-size: 60px;
+	background-color: #eae473;
+	padding: 20px 20px 10px 20px;
+}
+.threadTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 30px;
+}
+.threadTitle a {
+	text-decoration: none;
+}
+.thread {
+	margin: 20px;
+}
+.threadAttribute {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.threadForm {
+	margin:20px;
+	display: inline-block;
+	width:100%;
+}
+.commentForm input[type=submit] {
+	border: none;
+	background-color: #eae473;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+}
+.moreThreads {
+	margin: 20px;
+	background-color: blue;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+.threadBoxTitle {
+	font-family: 'Josefin Slab', serif;
+	font-size: 60px;
+	background-color: #eae473;
+	padding: 20px 20px 10px 20px;
+}
+.threadBoxDescription {
+	padding:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background-color:white;
+}
+.commentList {
+	padding:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.commentAttribute {
+	font-size: 14px;
+}
+.threadBoxThreadAuthor {
+	padding: 20px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
