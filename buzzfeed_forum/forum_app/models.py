@@ -3,7 +3,7 @@ from django.db import models
 class Thread(models.Model):
 	title = models.CharField(max_length=255)
 	username = models.CharField(max_length=255)
-	description = models.CharField(max_length=255)
+	description = models.CharField(max_length=255, null=True)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
 
